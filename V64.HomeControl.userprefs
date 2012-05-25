@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="V64.HomeControl.Serial/Commands/Rotel_RSP1069/CommandsZone1.cs">
+    <Files>
+      <File FileName="V64.HomeControl.Serial/Commands/Rotel_RSP1069/CommandsZone1.cs" Line="152" Column="124" />
+      <File FileName="V64.HomeControl.Serial/Commands/Rotel_RSP1069/CommandsZone2.cs" Line="98" Column="61" />
+      <File FileName="V64.HomeControl.Serial/Commands/Rotel_RSP1069/CommandsZone3.cs" Line="27" Column="9" />
+      <File FileName="V64.HomeControl.Serial/Commands/Rotel_RSP1069/CommandsZone4.cs" Line="106" Column="1" />
+      <File FileName="V64.HomeControl.Serial/Interfaces/ICommands.cs" Line="8" Column="33" />
+      <File FileName="V64.HomeControl.Serial/Interfaces/IDevice.cs" Line="18" Column="1" />
+      <File FileName="V64.HomeControl.Serial/Devices/Rotel_RSP1069.cs" Line="13" Column="6" />
+      <File FileName="V64.HomeControl.Serial/Main.cs" Line="15" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
