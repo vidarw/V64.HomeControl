@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -6,7 +6,7 @@
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{93E81F6C-21F4-499C-8F6F-D2B1DC96BD9D}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <RootNamespace>V64.HomeControl.Serial</RootNamespace>
     <AssemblyName>V64.HomeControl.Serial</AssemblyName>
   </PropertyGroup>
@@ -30,11 +30,13 @@
     <PlatformTarget>x86</PlatformTarget>
     <Externalconsole>true</Externalconsole>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Commands\Rotel_RSP1069\CommandsZone1.cs" />
     <Compile Include="Commands\Rotel_RSP1069\CommandsZone2.cs" />
@@ -50,10 +52,5 @@
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <Folder Include="Devices\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Commands\" />
-    <Folder Include="Commands\Rotel_RSP1069\" />
-  </ItemGroup>
+  <ItemGroup />
 </Project>
