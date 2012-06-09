@@ -1,6 +1,7 @@
 ﻿namespace V64.HomeControl.Serial.Console
 {
     using System;
+    using EPiServer.Install;
 
     class Program
     {
